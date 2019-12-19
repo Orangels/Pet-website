@@ -1,0 +1,19 @@
+.Content_layout{
+    display: flex;
+    height: 100%;
+    flex-direction:column;
+    justify-content:flex-start
+}
+
+.Content_layout_Conten{
+    display: flex;
+    height: 100%;
+    flex-grow: 1;
+    flex-direction:column;
+    background: #1AE809;
+}
+
+.Content_layout_Footer{
+
+}
+

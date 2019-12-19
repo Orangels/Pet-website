@@ -1,0 +1,11 @@
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="MODEL-ZOO-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-100.000000, -30.000000)">
+        <g id="导航-固定条" fill="#FF8722" fill-rule="nonzero">
+            <path d="M130,30 C146.56,30 160,43.38 160,59.94 C160,76.5 146.56,89.94 130,89.94 C127.45,89.94 124.96,89.61 122.59,89.01 L122.59,81.78 L122.59,74.46 L134.92,74.46 C143.08,74.46 149.74,67.8 149.74,59.64 C149.74,51.48 143.11,44.82 134.92,44.82 L115.93,44.82 L115.93,81.84 L115.93,86.49 C106.45,81.45 100,71.49 100,60 C100,43.44 113.44,30 130,30 Z M143.08,59.67 C143.08,64.17 139.42,67.83 134.92,67.83 L122.59,67.83 L122.59,51.51 L134.92,51.51 C139.42,51.51 143.08,55.17 143.08,59.67 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,164 @@
+/*Model_Zoo*/
+
+@import '~antd/dist/antd.css';
+
+@font-face {
+  font-family: "freight-sans-book";
+  src: url("./asset/Font/freight-sans-book.otf") format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "freight-sans";
+  /*src: url("./asset/Font/freight-sans-regular.woff2") format('woff');*/
+  src: url("./asset/Font/freight-sans-regular.woff2") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PingFangSC-Regular";
+  src: url("./asset/Font/PingFang.ttc") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+h1 h2 h3 h4{
+  font-family: freight-sans-book;
+  letter-spacing: 1px;
+  /*word-spacing: 1px;*/
+  /*letter-spacing: 0px;*/
+}
+
+span{
+  /*word-spacing: 1px;*/
+}
+p{
+  /*word-spacing: 1px;*/
+}
+.sider_nav li{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ant-table-thead > tr > th {
+  background: #F7F7F7;
+  text-align: center;
+}
+
+
+.ant-menu.ant-menu-light.ant-menu-inline .ant-menu-item-selected {
+  background-color: rgb(252,232,213); /*Overriden property*/
+  color: rgba(251,139,35,1);
+  /*border-right:3px solid rgba(251,163,57,1);*/
+}
+
+/*.ant-menu.ant-menu-sub.ant-menu-inline .ant-menu-item-selected {*/
+/*    color: rgba(251,139,255,1);*/
+/*    background-color: #1AE809;*/
+/*    width: 800px;*/
+/*}*/
+
+/*.ant-menu.ant-menu-light .ant-menu-item-active {*/
+/*  //color: rgba(251,139,35,1);*/
+/*    color:rgb(53,252,57);*/
+/*}*/
+
+/*.ant-menu.ant-menu-light.ant-menu-inline .ant-menu-item-active {*/
+/*    color: rgba(251,139,35,1);*/
+/*}*/
+
+.ant-menu.ant-menu-light.ant-menu-horizontal .ant-menu-item-selected {
+  color: rgba(251,139,35,1);
+  border-bottom-color: rgba(251,139,35,1);
+  /*border-bottom-color: rgba(255,255,255,1);*/
+}
+
+.ant-menu.ant-menu-light.ant-menu-horizontal {
+  color: rgba(251,139,35,1);
+  border-bottom-color: rgba(251,139,35,0);
+}
+
+.ant-menu.ant-menu-light.ant-menu-horizontal .ant-menu-item-active {
+  color: rgba(251,139,35,1);
+  border-bottom-color: rgba(251,139,35,1);
+}
+
+.ant-menu-vertical .ant-menu-item::after, .ant-menu-vertical-left .ant-menu-item::after, .ant-menu-vertical-right .ant-menu-item::after, .ant-menu-inline .ant-menu-item::after{
+  border-right: 3px solid rgba(251,139,35,1);
+}
+
+/*// header model zoo // 这个也影响 sider Menu*/
+.ant-menu-item:hover, .ant-menu-item-active, .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open, .ant-menu-submenu-active, .ant-menu-submenu-title:hover {
+                         color: rgba(251,139,35,1);
+                         border-bottom-color: rgba(251,139,35,1);
+                       }
+
+
+
+/*#components-layout-demo-fixed-sider .logo {*/
+/*  height: 100px;*/
+/*  background: rgba(34,142,198,1);*/
+/*  margin: 16px;*/
+/*}*/
+
+/*!*AnimationExample*!*/
+/*.fade-enter {*/
+/*  opacity: 0;*/
+/*  z-index: 1;*/
+/*}*/
+
+/*.fade-enter.fade-enter-active {*/
+/*  opacity: 1;*/
+/*  transition: opacity 250ms ease-in;*/
+/*}*/
+
+
+/* !*table*!*/
+/*.table-operations {*/
+/*  margin-bottom: 16px;*/
+/*}*/
+
+/*.table-operations > button {*/
+/*  margin-right: 8px;*/
+/*}*/
+
+
+/*.App {*/
+/*  text-align: center;*/
+/*}*/
+
+/*.App-logo {*/
+/*  animation: App-logo-spin infinite 20s linear;*/
+/*  height: 40vmin;*/
+/*  pointer-events: none;*/
+/*}*/
+
+/*.App-header {*/
+/*  background-color: #282c34;*/
+/*  min-height: 100vh;*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*  font-size: calc(10px + 2vmin);*/
+/*  color: white;*/
+/*}*/
+
+/*.App-link {*/
+/*  color: #61dafb;*/
+/*}*/
+
+/*@keyframes App-logo-spin {*/
+/*  from {*/
+/*    transform: rotate(0deg);*/
+/*  }*/
+/*  to {*/
+/*    transform: rotate(360deg);*/
+/*  }*/
+/*}*/
+
+

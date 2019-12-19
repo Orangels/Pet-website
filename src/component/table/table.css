@@ -1,0 +1,28 @@
+.Row_1{
+    background-color: #339f34;
+}
+.Row_2{
+    background-color: #D42A2F;
+}
+.Row_3{
+    background-color: #936ABB;
+}
+.Row_4{
+    background-color: #C39296;
+}
+.Row_5{
+    background-color: #F6B7D2;
+}
+.Row_6{
+    background-color: #C7C7C7;
+}
+.Row_7{
+    background-color: #DBDA91;
+}
+.dark-row{
+    background-color: #5C5E61;
+}
+
+li b p {
+    color: pink;
+}
