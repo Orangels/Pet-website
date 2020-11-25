@@ -8,7 +8,7 @@
     "customize-cra": "^0.2.13",
     "echarts": "^4.2.1",
     "enquire-js": "^0.2.1",
-    "highlight.js": "^9.15.6",
+    "highlight.js": "^10.1.2",
     "history": "^4.9.0",
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
