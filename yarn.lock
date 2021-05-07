@@ -5291,6 +5291,12 @@ jsx-ast-utils@^2.0.1:
   dependencies:
     array-includes "^3.0.3"
 
+katex@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/katex/-/katex-0.9.0.tgz#26a7d082c21d53725422d2d71da9b2d8455fbd4a"
+  dependencies:
+    match-at "^0.1.1"
+
 killable@^1.0.0:
   version "1.0.1"
   resolved "https://registry.npmjs.org/killable/-/killable-1.0.1.tgz#4c8ce441187a061c7474fb87ca08e2a638194892"
@@ -5585,6 +5591,10 @@ markdown-escapes@^1.0.0:
 marked@^0.6.2:
   version "0.6.2"
   resolved "https://registry.npm.taobao.org/marked/download/marked-0.6.2.tgz#c574be8b545a8b48641456ca1dbe0e37b6dccc1a"
+
+match-at@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/match-at/-/match-at-0.1.1.tgz#25d040d291777704d5e6556bbb79230ec2de0540"
 
 math-random@^1.0.1:
   version "1.0.4"
@@ -7636,6 +7646,14 @@ rc-tabs@~9.6.0:
     resize-observer-polyfill "^1.5.1"
     warning "^3.0.0"
 
+rc-texty@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/rc-texty/-/rc-texty-0.2.0.tgz#79af813523bfc314ba74af2bc086cda8b3296458"
+  dependencies:
+    babel-runtime "6.x"
+    classnames "^2.2.6"
+    rc-tween-one "^2.2.0"
+
 rc-time-picker@~3.6.1:
   version "3.6.4"
   resolved "https://registry.npmjs.org/rc-time-picker/-/rc-time-picker-3.6.4.tgz#3feb05ec88f9c91701d4f691025e9bad9085af3c"
@@ -7703,6 +7721,17 @@ rc-trigger@^3.0.0-rc.2:
     rc-align "^2.4.1"
     rc-animate "^3.0.0-rc.1"
     rc-util "^4.4.0"
+
+rc-tween-one@^2.2.0, rc-tween-one@^2.6.2:
+  version "2.7.3"
+  resolved "https://registry.yarnpkg.com/rc-tween-one/-/rc-tween-one-2.7.3.tgz#c9d3c44743e25c654d65c22ec3934afd79923fae"
+  dependencies:
+    babel-runtime "6.x"
+    prop-types "^15.6.1"
+    raf "~3.4.0"
+    react-lifecycles-compat "^3.0.4"
+    style-utils "~0.2.0"
+    tween-functions "~1.2.0"
 
 rc-tween-one@^2.3.2, rc-tween-one@^2.4.0:
   version "2.4.1"
@@ -7811,6 +7840,12 @@ react-error-overlay@^5.1.4:
 react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1:
   version "16.8.6"
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
+
+react-katex@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/react-katex/-/react-katex-2.0.2.tgz#0cb9559a4f30cb18f808006922b116c06e8b0ae9"
+  dependencies:
+    katex "^0.9.0"
 
 react-lazy-load@^3.0.13:
   version "3.0.13"
@@ -9213,8 +9248,8 @@ typedarray@^0.0.6:
   resolved "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
 ua-parser-js@^0.7.18:
-  version "0.7.19"
-  resolved "https://registry.npmjs.org/ua-parser-js/-/ua-parser-js-0.7.19.tgz#94151be4c0a7fb1d001af7022fdaca4642659e4b"
+  version "0.7.28"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.28.tgz#8ba04e653f35ce210239c64661685bf9121dec31"
 
 uglify-js@3.4.x, uglify-js@^3.1.4:
   version "3.4.10"
